@@ -811,6 +811,7 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -827,6 +828,7 @@
                     <forkMode>once</forkMode>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.openclover</groupId>
                 <artifactId>clover-maven-plugin</artifactId>
