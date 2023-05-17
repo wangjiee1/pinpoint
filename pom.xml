@@ -803,9 +803,12 @@
                     <debug>true</debug>
                     <optimize>true</optimize>
                     <encoding>${encoding}</encoding>
-                    <showDeprecation>true</showDeprecation>
+                    <showDeprecation>false</showDeprecation>
                     <compilerVersion>${jdk.version}</compilerVersion>
                     <executable>${jdk.home}/bin/javac</executable>
+                    <compilerArguments>
+                        <bootclasspath>C:/Program Files/Java/jdk1.8.0_281/jre/lib/rt.jar</bootclasspath>
+                    </compilerArguments>
                 </configuration>
             </plugin>
             <plugin>
